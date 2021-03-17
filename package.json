@@ -1,0 +1,33 @@
+{
+  "name": "vue-a11y-dialog",
+  "version": "1.1.0",
+  "main": "dist/vue-a11y-dialog.cjs.js",
+  "browser": "dist/vue-a11y-dialog.umd.js",
+  "module": "dist/vue-a11y-dialog.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue-a11y-dialog.es.js",
+      "require": "./dist/vue-a11y-dialog.cjs.js"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "release": "standard-version",
+    "project:publish": "git push --tags origin next && npm run build && npm publish --tag next"
+  },
+  "dependencies": {
+    "vue": "^3.0.7",
+    "a11y-dialog": "^6.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.21",
+    "@vitejs/plugin-vue": "^1.0.4",
+    "@vue/compiler-sfc": "^3.0.5",
+    "eslint": "^7.22.0",
+    "eslint-plugin-vue": "^7.7.0",
+    "standard-version": "^9.1.0",
+    "vite": "^2.0.0-beta.12",
+    "vue-router": "^4.0.3"
+  }
+}

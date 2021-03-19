@@ -1,15 +1,15 @@
 {
   "name": "vue-a11y-dialog-next",
-  "version": "1.2.2",
-  "main": "dist/vue-a11y-dialog.es.js",
+  "version": "1.2.3",
+  "main": "dist/vue-a11y-dialog-next.es.js",
   "private": false,
-  "browser": "dist/vue-a11y-dialog.umd.js",
-  "unpkg": "dist/vue-a11y-dialog.iife.js",
-  "module": "dist/vue-a11y-dialog.umd.js",
+  "browser": "dist/vue-a11y-dialog-next.umd.js",
+  "unpkg": "dist/vue-a11y-dialog-next.iife.js",
+  "module": "dist/vue-a11y-dialog-next.umd.js",
   "exports": {
     ".": {
-      "import": "./dist/vue-a11y-dialog.es.js",
-      "require": "./dist/vue-a11y-dialog.cjs.js"
+      "import": "./dist/vue-a11y-dialog-next.es.js",
+      "require": "./dist/vue-a11y-dialog-next.cjs.js"
     }
   },
   "scripts": {

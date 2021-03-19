@@ -13,7 +13,7 @@ export default defineConfig({
     lib: {
       entry: path.resolve(__dirname, 'src'),
       name: 'VueA11yDialog',
-      formats: ['es', 'cjs', 'iife', 'umd']
+      formats: ['es', 'iife', 'umd']
     },
     rollupOptions: {
       external: ['vue'],

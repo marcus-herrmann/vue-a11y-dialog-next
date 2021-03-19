@@ -73,7 +73,7 @@
         dialog: null
       }
     },
-
+    emits: ['dialog-ref'],
     methods: {
       close () {
         this.dialog.hide()

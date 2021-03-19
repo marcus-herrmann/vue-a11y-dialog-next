@@ -1,10 +1,10 @@
 {
   "name": "vue-a11y-dialog-next",
-  "version": "1.2.3",
-  "main": "dist/vue-a11y-dialog-next.es.js",
+  "version": "1.2.7",
+  "main": "dist/vue-a11y-dialog-next.umd.js",
   "private": false,
   "browser": "dist/vue-a11y-dialog-next.umd.js",
-  "unpkg": "dist/vue-a11y-dialog-next.iife.js",
+  "unpkg": "dist/vue-a11y-dialog-next.umd.js",
   "module": "dist/vue-a11y-dialog-next.umd.js",
   "exports": {
     ".": {

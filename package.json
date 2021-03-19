@@ -1,9 +1,9 @@
 {
   "name": "vue-a11y-dialog-next",
-  "version": "1.1.3",
+  "version": "1.1.4",
   "main": "dist/vue-a11y-dialog.cjs.js",
   "browser": "dist/vue-a11y-dialog.umd.js",
-  "module": "dist/vue-a11y-dialog.es.js",
+  "module": "dist/vue-a11y-dialog.umd.js",
   "exports": {
     ".": {
       "import": "./dist/vue-a11y-dialog.umd.js",

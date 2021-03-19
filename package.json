@@ -1,6 +1,6 @@
 {
-  "name": "vue-a11y-dialog",
-  "version": "1.1.0",
+  "name": "vue-a11y-dialog-next",
+  "version": "1.1.2",
   "main": "dist/vue-a11y-dialog.cjs.js",
   "browser": "dist/vue-a11y-dialog.umd.js",
   "module": "dist/vue-a11y-dialog.es.js",
@@ -17,8 +17,8 @@
     "project:publish": "git push --tags origin next && npm run build && npm publish --tag next"
   },
   "dependencies": {
-    "vue": "^3.0.7",
-    "a11y-dialog": "^6.0.1"
+    "a11y-dialog": "^6.0.1",
+    "vue": "^3.0.7"
   },
   "devDependencies": {
     "@types/node": "^14.14.21",

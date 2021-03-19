@@ -1,7 +1,7 @@
 {
   "name": "vue-a11y-dialog-next",
-  "version": "1.1.9",
-  "main": "./dist/vue-a11y-dialog.cjs.js",
+  "version": "1.2.1",
+  "main": "./dist/vue-a11y-dialog.umd.js",
   "browser": "./dist/vue-a11y-dialog.umd.js",
   "module": "./dist/vue-a11y-dialog.umd.js",
   "exports": {
@@ -10,9 +10,6 @@
       "require": "./dist/vue-a11y-dialog.cjs.js"
     }
   },
-  "files": [
-    "./dist/vue-a11y-dialog.umd.js"
-  ],
   "scripts": {
     "dev": "vite",
     "build": "vite build",

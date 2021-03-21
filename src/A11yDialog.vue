@@ -73,7 +73,7 @@
         dialog: null
       }
     },
-    emits: ['dialog-ref'],
+    emits: ['dialogref'],
     methods: {
       close () {
         this.dialog.hide()
@@ -83,7 +83,7 @@
     mounted () {
       this.$nextTick(function () {
         this.dialog = new A11yDialog(this.$refs.rootElement, this.appRoot)
-        this.$emit('dialog-ref', this.dialog)
+        this.$emit('dialogref', this.dialog)
       }.bind(this))
     },
 
@@ -92,7 +92,7 @@
         this.dialog.destroy()
       }
 
-      this.$emit('dialog-ref')
+      this.$emit('dialogref')
     }
   }
 </script>
